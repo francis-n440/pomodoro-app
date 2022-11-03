@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Navigation from '../components/Navigation/Navigation';
+import Timer from '../components/Timer/Timer';
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
       </Head>
 
       <Navigation />
+
+      <Timer />
 
     </>
   );
